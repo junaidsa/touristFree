@@ -1,11 +1,16 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 function About(){
 
     return(
         <>
-        <h1>This is About Us</h1>
+        
+        
+        <h1>this is home</h1>
         </>
     )
 }

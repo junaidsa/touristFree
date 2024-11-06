@@ -1,0 +1,43 @@
+small{
+    font-size: .875em;
+}
+
+.btn-sm-square{
+    width: 32px;
+    height: 32px;
+}
+.navbar-p{
+    /* padding: 5px; */
+}
+
+.hero-section{
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)),url(./images/bg-hero.jpg)
+}
+
+.hero-heading{
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 800;
+    line-height: 1.2;
+    
+}
+.p-heading{
+    font-size: 25px;
+    margin: 20px 0;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.main-heading{
+    color:  #86B817 !important;
+}
+
+ nav .navbar-links:hover{
+    color:  #86B817 !important;
+
+}
+
+.social-icons{
+    width: 80%;
+    height: 80%;
+}
+
