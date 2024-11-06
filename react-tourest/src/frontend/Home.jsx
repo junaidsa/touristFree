@@ -1,14 +1,4 @@
-import About from './About'
-import Services from './Services'
-import Packages from './Packages'
-import Pages from './Pages'
-import Footer from '../Components/Footer';
-import Navbar from '../Components/Navbar'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-import React from 'react';
-
+import aboutImage from '../assets/images/about.jpg';
 function Home() {
   return (
     <>
@@ -19,8 +9,7 @@ function Home() {
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s"style={{ minHeight: '400px' }}
                     >
                         <div className="position-relative h-100">
-                            <img className="img-fluid position-absolute w-100 h-100" src="./src/assets/images/about.jpg" alt="" style={{ minHeight: '400px' }}
-                            />
+                        <img className="img-fluid position-absolute w-100 h-100" src={aboutImage} alt="About Us" style={{ minHeight: '400px' }} />
                         </div>
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
